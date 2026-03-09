@@ -2,197 +2,247 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agência Criativa Web</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="estilos.css">
+<title>Agência Criativa Web</title>
 
-    <!-- Fonte moderna -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
 <!-- HEADER -->
-<header>
 
-    <div class="container-header">
+<header class="header">
 
-        <div class="logo">
-            Agência Criativa Web
-        </div>
+<div class="container header__container">
 
-        <nav>
-            <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#sobre">Sobre Nós</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#depoimentos">Depoimentos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+<div class="header__logo">
+Agência Criativa Web
+</div>
 
-    </div>
+<nav class="nav">
+
+<ul class="nav__menu">
+
+<li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+<li class="nav__item"><a class="nav__link" href="#">Sobre</a></li>
+<li class="nav__item"><a class="nav__link" href="#">Serviços</a></li>
+<li class="nav__item"><a class="nav__link" href="#">Depoimentos</a></li>
+<li class="nav__item"><a class="nav__link" href="#">Contato</a></li>
+
+</ul>
+
+</nav>
+
+</div>
 
 </header>
 
+<!-- HERO -->
 
-<!-- HOME -->
-<section id="home" class="banner">
+<section class="hero">
 
-    <div class="banner-conteudo">
+<div class="container hero__content">
 
-        <h1>Transformamos ideias em experiências digitais</h1>
+<h1 class="hero__title">
+Transformamos ideias em experiências digitais
+</h1>
 
-        <p>
-            Criamos sites modernos, identidades visuais e soluções digitais que impulsionam seu negócio.
-        </p>
+<p class="hero__text">
+Criamos sites modernos, identidades visuais e soluções digitais para impulsionar empresas.
+</p>
 
-        <button>Conheça nossos serviços</button>
+<button class="button button--primary">
+Conheça nossos serviços
+</button>
 
-    </div>
+</div>
 
 </section>
 
 
 <!-- SOBRE -->
-<section id="sobre" class="sobre">
 
-    <div class="container">
+<section class="about section">
 
-        <h2>Sobre Nós</h2>
+<div class="container">
 
-        <p>
-            A Agência Criativa Web é especializada em desenvolvimento digital, design gráfico e branding.
-            Nosso objetivo é ajudar empresas a crescer no ambiente digital através de soluções modernas,
-            criativas e altamente profissionais.
-        </p>
+<h2 class="section__title">Sobre Nós</h2>
 
-        <p>
-            Trabalhamos com foco em inovação, qualidade e experiência do usuário.
-        </p>
+<p class="about__text">
+Somos uma agência especializada em design digital, branding e desenvolvimento web.
+Nosso foco é criar experiências digitais modernas e eficientes.
+</p>
 
-    </div>
+</div>
 
 </section>
 
 
 <!-- SERVIÇOS -->
-<section id="servicos" class="servicos">
 
-    <div class="container">
+<section class="services section">
 
-        <h2>Nossos Serviços</h2>
+<div class="container">
 
-        <div class="grid-servicos">
+<h2 class="section__title">Serviços</h2>
 
-            <div class="card">
-                <h3>Design Gráfico</h3>
-                <p>Criação de artes, identidade visual e materiais publicitários.</p>
-            </div>
+<div class="services__grid">
 
-            <div class="card">
-                <h3>Desenvolvimento Web</h3>
-                <p>Criação de sites modernos, rápidos e responsivos.</p>
-            </div>
+<div class="card services__card">
 
-            <div class="card">
-                <h3>Branding</h3>
-                <p>Construção de marcas fortes e memoráveis.</p>
-            </div>
+<h3 class="card__title">Design Gráfico</h3>
 
-            <div class="card">
-                <h3>Marketing Digital</h3>
-                <p>Estratégias digitais para aumentar sua presença online.</p>
-            </div>
+<p class="card__text">
+Criação de identidade visual e materiais gráficos.
+</p>
 
-        </div>
+</div>
 
-    </div>
+<div class="card services__card">
+
+<h3 class="card__title">Desenvolvimento Web</h3>
+
+<p class="card__text">
+Criação de sites modernos e responsivos.
+</p>
+
+</div>
+
+<div class="card services__card">
+
+<h3 class="card__title">Branding</h3>
+
+<p class="card__text">
+Construção estratégica de marcas.
+</p>
+
+</div>
+
+<div class="card services__card">
+
+<h3 class="card__title">Marketing Digital</h3>
+
+<p class="card__text">
+Estratégias para crescimento online.
+</p>
+
+</div>
+
+</div>
+
+</div>
 
 </section>
 
 
 <!-- DEPOIMENTOS -->
-<section id="depoimentos" class="depoimentos">
 
-    <div class="container">
+<section class="testimonials section">
 
-        <h2>O que dizem nossos clientes</h2>
+<div class="container">
 
-        <div class="flex-depoimentos">
+<h2 class="section__title">Depoimentos</h2>
 
-            <div class="depoimento">
-                <p>
-                    "A equipe da Agência Criativa Web transformou completamente a presença digital da nossa empresa."
-                </p>
-                <h4>— Carlos Mendes</h4>
-            </div>
+<div class="testimonials__list">
 
-            <div class="depoimento">
-                <p>
-                    "Profissionais extremamente criativos e comprometidos com resultados."
-                </p>
-                <h4>— Mariana Souza</h4>
-            </div>
+<div class="card testimonial">
 
-            <div class="depoimento">
-                <p>
-                    "Nosso novo site ficou incrível. Atendimento excelente!"
-                </p>
-                <h4>— Ricardo Almeida</h4>
-            </div>
+<p class="testimonial__text">
+"A equipe foi incrível e entregou um site fantástico."
+</p>
 
-        </div>
+<span class="testimonial__author">
+Carlos Mendes
+</span>
 
-    </div>
+</div>
+
+<div class="card testimonial">
+
+<p class="testimonial__text">
+"Profissionais extremamente criativos."
+</p>
+
+<span class="testimonial__author">
+Mariana Souza
+</span>
+
+</div>
+
+<div class="card testimonial">
+
+<p class="testimonial__text">
+"Nosso novo site aumentou muito nossas vendas."
+</p>
+
+<span class="testimonial__author">
+Ricardo Almeida
+</span>
+
+</div>
+
+</div>
+
+</div>
 
 </section>
 
 
 <!-- CONTATO -->
-<section id="contato" class="contato">
 
-    <div class="container">
+<section class="contact section">
 
-        <h2>Contato</h2>
+<div class="container">
 
-        <div class="contato-grid">
+<h2 class="section__title">Contato</h2>
 
-            <div class="info">
+<div class="contact__grid">
 
-                <p><strong>Endereço:</strong> São Paulo - SP</p>
-                <p><strong>Telefone:</strong> (11) 99999-9999</p>
-                <p><strong>Email:</strong> contato@agenciacriativaweb.com</p>
+<div class="contact__info">
 
-            </div>
+<p><strong>Endereço:</strong> São Paulo - SP</p>
+<p><strong>Telefone:</strong> (11) 99999-9999</p>
+<p><strong>Email:</strong> contato@agenciaweb.com</p>
 
-            <form>
+</div>
 
-                <input type="text" placeholder="Seu nome" required>
+<form class="form">
 
-                <input type="email" placeholder="Seu e-mail" required>
+<input class="form__input" type="text" placeholder="Seu nome">
 
-                <textarea placeholder="Sua mensagem"></textarea>
+<input class="form__input" type="email" placeholder="Seu email">
 
-                <button type="submit">Enviar</button>
+<textarea class="form__textarea" placeholder="Mensagem"></textarea>
 
-            </form>
+<button class="button button--primary">
+Enviar
+</button>
 
-        </div>
+</form>
 
-    </div>
+</div>
+
+</div>
 
 </section>
 
 
 <!-- FOOTER -->
-<footer>
 
-    <p>© 2026 Agência Criativa Web - Todos os direitos reservados</p>
+<footer class="footer">
+
+<p class="footer__text">
+© 2026 Agência Criativa Web
+</p>
 
 </footer>
 
 </body>
+
 </html>
