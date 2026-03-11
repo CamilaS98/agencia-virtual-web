@@ -1,0 +1,28 @@
+// ============================
+// MIXINS
+// ============================
+
+// container centralizado
+@mixin container {
+  width: 90%;
+  max-width: $container-max;
+  margin: auto;
+}
+
+// botão padrão
+@mixin botao($bg) {
+  padding: 1rem 2rem;
+  border: none;
+  background: $bg;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+// card padrão
+@mixin card {
+  background: white;
+  padding: $espacamento;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}

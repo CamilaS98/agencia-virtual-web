@@ -1,0 +1,26 @@
+@use 'variaveis' as *;
+@use 'mixins' as *;
+
+// ============================
+// NAV
+// ============================
+
+.nav{
+
+&__menu{
+display:flex;
+gap:$espacamento;
+list-style:none;
+}
+
+&__link{
+text-decoration:none;
+color:white;
+
+&:hover{
+color:$cor-secundaria;
+}
+
+}
+
+}
